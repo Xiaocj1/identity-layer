@@ -207,6 +207,6 @@
 本文框架采用 **知识共享 署名-相同方式共享 4.0 国际许可证**。欢迎任何个人与组织在注明出处的前提下，对文中构想进行实验、实现、商用与迭代。“安心发送”协议相关技术草案与设计资源，将于GitHub持续更新。
 
 ### 联系我们与项目进展
-*   **GitHub:** [github.com/send-in-peace-protocol](https://github.com/send-in-peace)
+*   **GitHub:** [github.com/Xiaocj1/send-in-peace-protocol](https://github.com/Xiaocj1/send-in-peace)
 *   **讨论区:** 欢迎在GitHub Discussions发起话题
 *   **作者邮箱:** [在首次成功移交后公开]
