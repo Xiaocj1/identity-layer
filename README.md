@@ -41,7 +41,6 @@ We believe in showing, not just telling. Each month, we explore a different aspe
 *How would you design the experience of switching between your "Work", "Family", and "True Self" personas?*
 
 ## 📁 Repository Structure
-.
 ├── README.md # This file. The "constitution" of the handover.
 ├── GENESIS.md # The three immutable protocol principles.
 ├── GOVERNANCE_TRANSITION.md # Detailed transition logic.
