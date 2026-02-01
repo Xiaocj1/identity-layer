@@ -36,7 +36,7 @@ I (the initial author) do one thing: **hand over this repository's administrativ
 ## 🎨 Prototype Gallery (New!)
 We believe in showing, not just telling. Each month, we explore a different aspect of the protocol through interactive prototypes and design challenges.
 
-**Current Challenge (May 2024):** [Identity Switcher Interaction Paradigms](Prototype-Gallery/2024-05-Identity-Switcher/)
+**Current Challenge (March 2026):** [Identity Switcher Interaction Paradigms](Prototype-Gallery/2026-03-Identity-Switcher/)
 
 *How would you design the experience of switching between your "Work", "Family", and "True Self" personas?*
 
@@ -48,7 +48,7 @@ We believe in showing, not just telling. Each month, we explore a different aspe
 ├── CONTRIBUTING.md             # How to contribute meaningfully.
 ├── ROADMAP.md                  # Evolving 12-month community roadmap.
 ├── Prototype-Gallery/          # Monthly design challenges & prototypes.
-│   └── 2026-02-Identity-Switcher/
+│   └── 2026-03-Identity-Switcher/
 ├── Whitepaper/                 # The intellectual foundation.
 │   ├── en.md                   # International version (global case studies)
 │   └── zh-Hans.md              # Chinese version
