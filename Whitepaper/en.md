@@ -1,210 +1,180 @@
-# Whitepaper: Digital Social Trust Deficit & Civilization Reconstruction
+# **Digital Social Trust Deficit & Civilization Reconstruction Whitepaper**
 
-**Subtitle:** An Open-Source Socio-Technical Protocol Draft for the "Send in Peace" Initiative
+## An Initiative on the "Send in Peace" Protocol & the Next Generation Trust Internet
 
+**Subtitle:** An open-source socio-technical protocol draft, dedicated to all builders unwilling to remain silent in the digital cage.  
 **Author:** somebody  
-**Version:** Public Draft 1.0 | Creative Commons Attribution-ShareAlike 4.0 International
+**Version:** Public Draft 2.1 | Creative Commons Attribution-ShareAlike 4.0 International
 
 ---
 
-## 【0. Manifesto: This Is Not a Business Plan】
+## **【0. Manifesto: This is Not a Business Plan】**
 
-What we present here is not another startup idea seeking funding, nor merely an academic paper for citation.
+What we propose here is not another startup project seeking funding, nor is it merely an academic paper for citation.
 
-This is a **diagnosis of a systemic civilizational crisis in the digital age**, paired with an **open-source, layered, iterative socio-technical solution framework**.
+This is a diagnostic report on the systemic civilizational crisis of the digital age, paired with an open-source, layered, and iterable socio-technical solution framework.
 
-We believe the next evolution of digital civilization will not come from piling more features onto a super-app, but from a **paradigm shift in the foundational social protocols of communication itself**. This whitepaper aims to clearly define the problem and provide a "foundational protocol proposal" for the entire industry to examine, challenge, experiment with, and build upon collectively.
+We firmly believe that the next evolution of digital civilization will not arise from the functional stacking of another super-app, but will begin with a **paradigm reconstruction of the social protocol at the communication foundation**. The purpose of this whitepaper is to clearly define the problem and provide a "**foundational protocol proposal**" open for scrutiny, challenge, experimentation, and co-creation by the entire industry.
 
 We release it publicly, hoping it becomes:
-* A theoretical coordinate for researchers studying "digital identity boundaries" and "contextual integrity".
-* An open technical blueprint for engineers building the next-generation "trust communication layer".
-* A source of inspiration for product designers crafting more dignified, humane interactions.
-* A collective action blueprint—discussable and improvable—for all users who feel "digital discomfort" but lack a voice.
+
+*   A theoretical coordinate for scholars researching "digital identity boundaries" and "context integrity";
+*   An open technical blueprint for engineers building the next-generation "trust communication layer";
+*   A source of inspiration for product designers to create more dignified, human-centric interactions;
+*   And for all users who sense "digital discomfort" yet have no voice, a discussable, improvable blueprint for collective action.
 
 ---
 
-## 【Abstract: From "Digital Tribes" to "Civilized Cities"】
+## **【Executive Summary: From "Digital Tribe" to "Personality City"】**
 
-In their quest to "connect everyone," mainstream digital social platforms have inadvertently constructed a highly transparent, identity-conflated **"Digital Primitive Tribe."** Users are trapped on a never-ending, panoramic stage among acquaintances, leading to sharing anxiety, performative exhaustion, and persistent cognitive drain. The root cause is not a lack of features, but a profound architectural paradox: attempting to carry **the full spectrum of humanity's complex, layered, context-rich social needs** on a single "flattened broadcast network."
+While achieving the technical feat of "connecting everything," mainstream digital social platforms have inadvertently forged a highly transparent, identity-conflated **"Digital Primitive Tribe."** Users are trapped in a never-ending panorama stage of acquaintances, leading to sharing anxiety, expression suppression, and persistent psychological exhaustion. The root cause is not a lack of features, but a deep paradox in the underlying architecture: attempting to carry the full spectrum of humanity's complex, layered, context-rich communication needs with a single "flat broadcast network."
 
-Therefore, we propose the **"Send in Peace" (SIP) Protocol**. This is a three-layer socio-technical framework centered on the core principles of **Context Ownership, Relationship Definition, and Informed Risk**.
+Thus, we propose the **"Send in Peace" Protocol**. This is a socio-technical framework centered on **"Context Ownership."**
 
-*   **⚡ L1 Conscious Ritual:** Establishes digital society's guardrails, preventing the crudest context-crossing accidents.
-*   **👤 L2 Identity Sovereignty:** Enables users to create and manage multiple, fully isolated social personas, achieving true contextual separation.
-*   **🔄 L3 Consensus Radar:** Explores, under strict privacy sovereignty, whether technology can provide safe, dignified confirmation for mutual social intentions.
+*   **L1 Identity Sovereignty (Existential Foundation):** Allows users to create and manage multiple, fully independent **digital persona containers**. This is the protocol's fundamental promise, directly addressing the pain point of identity conflation.
+*   **L2 Sober Ritual (Safety Boundary):** Establishes **civilized rules for communication** between these independent personas, preventing the crudest forms of identity-crossing accidents.
+*   **L3 Consensus Detection (Visionary Possibility):** Explores opportunities for zero-risk confirmation of precious mutual intent, under the guarantee of sovereignty.
 
-This protocol aims to evolve digital interaction from a chaotic **"tribe"** to an organic **"city."** We argue that **"trust" is not a business cost, but the core infrastructure upon which the next digital civilization depends.** This document does not offer final answers but tries to ask the right questions, inviting all fellow travelers to help chart the course toward a more dignified digital future.
+**Our Core Strategy: Validate the Grand Vision with Pragmatic MVP.**
 
-> **We built the technological Tower of Babel, yet we live in a social primitive tribe.**
-> **It's time to move from *compulsory performance* to *sending in peace*.**
+The protocol's ultimate vision is operating system-level "Persona Containers." However, a journey of a thousand miles begins with a single step. We will prioritize promoting the implementation of "identity container" functionality within **independent applications** (e.g., note-taking, chat, knowledge management tools), using them as "**concept vehicles**" for the idea. When a multi-identity app you love proves its value, we will have the most powerful evidence to demand that our phones and computers provide the same rights at the system level.
 
----
+The goal of this protocol is to evolve digital social interaction from a chaotic **"Tribe"** to an organic **"Personality City."** We argue that **"trust" is not a business cost, but the core infrastructure upon which the next generation of digital civilization depends; and "identity sovereignty" is its unshakable cornerstone.** This paper does not provide final answers but attempts to ask the right questions and invites all fellow travelers to co-chart the course towards a more dignified digital future.
 
-## 【Chapter 1: Reality Check — When Digital Identity Shatters】
-
-Before a systemic analysis, let's examine a few slices of daily life:
-
-*   **Scene 1: The "Transparent Employee"**
-    Your work laptop is tightly monitored, yet your job requires you to use personal Slack. Your private vents to friends, family updates, and late-night musings now live in冰冷的 audit logs. The need to collaborate becomes a legal crowbar prying open your personal world.
-
-*   **Scene 2: The "Identity Warzone" in Group Chats**
-    Your family WhatsApp nags about life milestones, your work Slack pings you after hours, your gaming Discord rallies for a raid. They all clamor in the same notification stream, forcing you to switch between child, employee, and guildmate within seconds. One mis-tap, and "LOL this boss is so bad" lands in the company all-hands channel—social doom in 0.1 seconds.
-
-*   **Scene 3: The "Silent Calculus" Behind a Like**
-    Liking a friend's post on a niche political view means declaring your stance to colleagues. Liking an ex's new travel photo might spark tension at home. The simplest interaction becomes the most complex social博弈.
-
-These are not edge cases. They are the daily manifestation of a systemic identity crisis. We live in an age of pervasive, yet collectively mute, **digital discomfort**.
+> **We have built the technological Tower of Babel, yet we live in a social primitive tribe.**
+> **It is time to move from forced performance to Sending in Peace.**
 
 ---
 
-## 【Chapter 2: Diagnosis — The Civilizational Paradox of the "Digital Primitive Tribe"】
+## **【Chapter 1: Snapshots of the Era — When Digital Identity is Shredded】**
 
-Why do platforms of unprecedented technical power cause such widespread social unease? We believe the root lies in a regression of social form. Super-platforms like the ecosystems of Google or Meta have built a technological Tower of Babel, yet the social rules within have regressed to a pre-modern **"primitive tribe."**
+Before systematic analysis, let's gaze upon a few mundane cross-sections:
 
-1.  **The Transparent Cage: The Tribe's Inescapable Gaze**
-    In a tribe, whispers by the fire are heard by all. On digital platforms, Platform dynamics like activity visibility and network inference expose your interactions. A ‘like’ can reveal your stance to colleagues; shared groups can map your entire social graph to strangers. The most private acts of **"watching" and "connecting"** are dragged into the public arena of熟人 evaluation. Users live under a Foucauldian **"panoptic gaze,"** with no moment to take the mask off.
+*   **Snapshot 1: The "Transparent Prisoner" in the Workplace**  
+    Your company-issued laptop is under strict MDM (Mobile Device Management) monitoring, yet work requires you to be reachable on **your personal iMessage or WhatsApp**. Thus, your vents to family, intimate chats with friends, and late-night emotional outpourings all flow through a channel whose metadata is visible to corporate oversight. **Work necessity becomes the legal crowbar prying open your private world.**
 
-2.  **The Curse of Conflation: The Crushed Digital Self**
-    In a tribe, the hunter, father, and shaman are played by one person. In digital social life, the employee, parent, and hobbyist must also be performed by a single digital avatar, on the same screen, simultaneously. This causes extreme **context collapse**: the colonization of life by work, the expulsion of private passion by public performance. The pure **"Self"** stripped of social roles has no place in digital space.
+*   **Snapshot 2: The "Identity Battleground" in the Notification Stream**  
+    Your **family group chat** is planning a reunion, your **work Slack** is @-ing you about a deadline, your **gaming Discord** is organizing a raid. They all clamor for attention with identical buzzes and banners, forcing you to switch between child, employee, and teammate in milliseconds. One slip — pasting a meme meant for friends into the **company-wide #general channel** — **professional mortification in 0.1 seconds.**
 
-3.  **The Trust Deficit: The Hidden Cost of Tribal "Vibrancy"**
-    When an environment fails to provide basic psychological safety, trust becomes scarce. The platform's **"connection"** warps from a福祉 into a **"liability"** requiring constant management. Users vote with their silence, while platforms lose their most valuable asset: deep interaction and authentic content creation. This is not business model success, but a hidden sacrifice of long-term social capital for short-term engagement metrics.
+*   **Snapshot 3: The "Silent Calculus" Behind a Like**  
+    Liking a friend's activist post on **Instagram** means publicly declaring a stance to your **professional network on LinkedIn**; reacting to an ex's story might unsettle your current partner. The simplest interaction becomes the most complex **social calculus**.
 
----
-
-## 【Chapter 3: Deconstruction — Flawed Architecture & The Missing Protocol Layer】
-
-Switching to a communications engineering lens, the problem's nature is laid bare: today's social networks use a fundamentally wrong architecture to handle complex human communication.
-
-*   **It Misuses "Broadcast":** The "feed" should be a limited broadcast to a specific group ("friends"), but the "friends" list is a mismatched **"shared apartment."** Every post becomes a shout to the entire building.
-*   **It Ignores the "Switch":** Work messages, hobby shares—each should be intelligently routed to the correct **"port"** (group/person). Reality is inefficient repetition in a single public channel, or risky mis-sends.
-*   **It Pollutes the "P2P" Channel:** Both ends of a private DM **"direct line"** sit atop the entirety of each other's social roles and history. Every whisper feels like a multi-party meeting, killing intimacy and deep dialogue.
-
-**The current architecture forces a megaphone, a switchboard, and a secure line to share the same wire.** This is more than a feature gap—it's the complete collapse of the network layered model at the social level. It causes massive misrouting of data packets (messages), permission leaks, and privacy spills.
-
-We don't need more feature patches. We need a new, human-centric social protocol at the communication sub-layer.
+These are not isolated cases but the daily manifestation of a systemic identity crisis. We live in an era of digital discomfort perceived by all yet collectively muted.
 
 ---
 
-## 【Chapter 4: Proposal — The "Send in Peace" Three-Layer Protocol】
+## **【Chapter 2: Diagnosis — The Civilization Paradox of the "Digital Primitive Tribe"】**
 
-To end this architectural chaos, we propose the **"Send in Peace" Protocol**. Its core is the restoration of three basic user rights: **Context Ownership, Relationship Definition, and Informed Risk**.
+Why do platforms of unprecedented technical power bring widespread social discomfort? We believe the root lies in the degeneration of social form.
 
-### ⚡ L1 The Civilized Floor: The Conscious Ritual
-*   **Goal:** Establish digital society's **"traffic lights" and "seatbelts"** to prevent the most jarring context-crossing accidents.
-*   **Mechanism:** When the system detects high-risk sending behavior (e.g., sending meme to 500-person company Slack), it triggers a mandatory cognitive cooling pop-up. The pop-up states clearly: **"You are sending [Content Type A] to [Context B]"** and requires one conscious, extra confirmation. This is communication's **"final safety gate."**
-*   **Why it matters:** This is the civilized baseline, preventing technical "social death."
+1.  **The Transparent Cage: The Ubiquitous Tribal Gaze**  
+    In a tribe, whispers by the fire are known to all. On digital platforms, "social recommendations" publicize your likes, and common group chats lay bare your network. The most private acts of "watching" and "connecting" are forcibly dragged into the public arena of acquaintance evaluation, subject to a Foucauldian **"panoptic gaze"** with no backstage.
 
-### 👤 L2 The Civilized Foundation: Identity Sovereignty
-*   **Goal:** Allow users to create and manage multiple independent **"social personas"** (e.g., "Professional-Jamie," "Parent-Jamie," "Gamer-Jay"). Each persona has its own contact list, chat history, activity stream, and privacy boundary, switched via passphrase or biometrics. This is the most thorough technical realization of **Context Ownership**.
-*   **Mechanism:**
-    1.  Users can create multiple identity containers with fully isolated data.
-    2.  Switching personas requires a conscious **"Sovereign Authentication."**
-    3.  No information or algorithmic crossover between personas by default, enabling true **"Digital Self Integrity."**
-*   **Advanced Feature:** Within a persona, users can still set **"Emotional Passcodes"** for specific relationships, creating deeper private spaces for the most important connections.
-*   **Why it matters:** **"I have multiple social roles, but I should decide when, where, and as whom I appear."** This solves the fundamental paradox of **"device-hostage identity"** and is the cornerstone of digital self-determination.
+2.  **The Curse of Conflation: The Crushed Digital Avatar**  
+    In digital social interaction, employee, child, and enthusiast must also be played by the same digital avatar, appearing simultaneously on the same interface. This leads to extreme **context collapse**: work colonizing life, public performance expelling private hobbies. The pure **"Self"**, stripped of all social roles, finds no sanctuary in digital space.
 
-### 🔄 L3 The Civilized Horizon: Consensus Radar
-*   **Goal:** Explore whether, under strict privacy and sovereignty, technology can offer safe, dignified confirmation for precious mutual intentions.
-*   **Mechanism:** Only when both parties voluntarily enable this feature and have locally tagged highly similar relationship definitions (e.g., "potential close friend," "industry mentor") does the system perform an anonymous, encrypted consensus check locally. If a match is found, it gives both parties a gentle, safely ignorable hint. It does **not** "matchmake"—it merely offers a technically endorsed, zero-risk icebreaker for cautiously mutual attention.
-*   **Why it matters:** It provides a techno-ethical solution for **"digital serendipity."**
+3.  **The Trust Deficit: The Hidden Cost of Tribal Prosperity**  
+    When the environment cannot provide basic psychological safety, trust becomes scarce. The platform's **"connection"** welfare morphs into a **"burden"** requiring constant management. Users vote with silence, while platforms sacrifice their most valuable asset—deep interaction and authentic content—for short-term engagement metrics. This is not business model success but a hidden sacrifice of long-term social capital.
 
 ---
 
-## 【Chapter 5: From Protocol to Action — Your First 15 Minutes】
+## **【Chapter 3: Deconstruction — The Wrong Architecture & The Missing Protocol Layer】**
 
-A protocol's value lies in its implementation. Here’s how you can start now:
+Switching perspective to communication engineering, the essence of the problem is laid bare: current social networks use a completely wrong architecture to carry complex human communication needs.
 
-*   **If you're a user:** Conduct a **"Personal Digital Context Audit"**: List your main identity roles across different platforms and apps. Ask yourself: have they been forcibly merged?
-*   **If you're a developer:** Visit our GitHub repo. Think about building an **"Identity Container" plugin** for an existing app (like Signal or Element), or submit your algorithm ideas for the **"Conscious Ritual"** trigger logic.
-*   **If you're a product designer:** Try designing an interaction prototype for a persona switcher: How can a user safely, elegantly switch between "Professional," "Family," and "Self" within one second?
-*   **If you're a researcher:** The following questions need exploration:
-    1.  The impact of multi-persona management on user cognitive load and psychological safety.
-    2.  The legal implications and data ownership definitions of **"Identity Sovereignty."**
-    3.  The ethical design of **"Consensus Radar"** between isolated personas.
+*   **It Abuses "Broadcast":** An **Instagram Story** should be a limited broadcast to a specific subset, but your "Followers" list is a motley **"shared apartment"** of colleagues, family, and acquaintances. Broadcast becomes a **barbaric shout to the entire apartment.**
+*   **It Ignores the "Switch":** Work information, interest sharing should be intelligently routed to target **"ports"** (groups/individuals). Reality forces inefficient repetition in the sole public channel or risky mis-sends.
+*   **It Pollutes the "Point-to-Point" Channel:** Both ends of a private **iMessage/SMS "dedicated line"** sit with the other's full social roles and historical context. Every private word feels like a multi-party meeting, preventing intimacy and deep conversation.
 
-**The protocol is open. Action is concrete. Choose your role and start building.**
+**The current architecture is like forcing a megaphone, a switchboard, and a secure telephone to share the same line.** This is not merely a feature gap but the total collapse of the network layered model at the social stratum. It directly causes massive misrouting of data packets (information), permission overflow, and privacy leaks.
+
+We need not more functional patches, but a brand new, **sub-layer social protocol** that respects innate human social instincts.
 
 ---
 
-## 【Chapter 6: Call to Action — Join the Protocol Movement】
+## **【Chapter 4: Proposal — The "Send in Peace" Protocol: Founded on Identity Sovereignty】**
 
-This whitepaper is a starting point, not an end. We've drawn the first star chart for what we believe the digital world should be—a sphere. Now, we invite you to become a co-cartographer.
+To end the above architectural chaos, we propose the **"Send in Peace" Protocol.** Its core is returning to users their most fundamental right: **Context Ownership (Identity Sovereignty).**
 
-### 1. For Academics & Research Institutions
-*   **Research Topics:** The legal and ethical foundations of **"Digital Identity Sovereignty"**; the quantitative impact of social protocols on online behavior and social capital.
-*   **Action:** Cite, critique, or extend this framework. Help push **"Digital Identity Autonomy"** to the forefront of inquiry.
+> **Note: The three layers of this protocol are progressive. L1 Identity Sovereignty is the foundation and raison d'être; L2 Sober Ritual is the civilized rule built upon that foundation; L3 Consensus Detection is the vision that may grow upon it.**
 
-### 2. For Engineers & Developers
-*   **Technical Challenges:** Implementing localized **"Identity Container"** data isolation; designing low-friction **"Conscious Ritual"** triggers.
-*   **Action:** Visit our open-source repository, review the draft protocol, submit code, or build standalone apps/browser extensions based on it.
+### **L1 Identity Sovereignty: The Autonomy Manifesto of the Digital Persona**
+*   **Goal:** To thoroughly end the paradox of **"The Device Hostages Identity."**
+*   **Promise:** The protocol requires any implementation to provide the capability to create and manage **fully isolated identity containers** (e.g., "Professional-Jane," "Parent-Jane," "Creator-Jay"). Each container possesses independent contacts, chat histories, activity streams, and privacy boundaries.
+*   **Experience:** Switching containers requires conscious **"sovereignty verification"** (biometric/key). Moving from "Work Mode" to "Family Mode" should feel like walking into another room—the world changes completely.
+*   **【Launch Strategy】** Our primary challenge: **build the first "star application" of the Identity Sovereignty paradigm.** This doesn't necessarily require modifying OS kernels. You could develop a brand-new note-taking app (like "Obsidian with Personas"), a knowledge management tool, or a privacy-focused messenger rebuilt with identity sovereignty at its core. **Your success is the most powerful promotion for the entire protocol.**
 
-### 3. For Product Designers & Entrepreneurs
-*   **Design Challenges:** How to make **"persona switching"** feel ritualistic, not burdensome? How to elegantly integrate the three-layer protocol into existing products?
-*   **Action:** Adopt **"Send in Peace"** as a feature module or product philosophy. Experiment with it in any product you're building that involves identity and communication.
+### **L2 Sober Ritual: Diplomatic Protocol Between Sovereigns**
+*   **Goal:** To establish **civilized communication etiquette** between independent digital personas. This is not a "safety feature" but the necessary **diplomatic correspondence** between sovereign entities.
+*   **Mechanism:** When attempting cross-container communication, the system triggers an unavoidable **context confirmation dialog.** It states clearly: **"Your 'Creator' persona is attempting to send a poem to your 'Professional' persona. This will cross your internal boundary. Initiate this diplomatic exchange?"** Confirmation is required from both sides.
+*   **Why it follows:** **It is the natural derivative and essential safeguard of Identity Sovereignty.** Sovereign states necessitate diplomatic rules. L2 is the civilized guardrail that enables L1 to operate safely.
 
-### 4. For Industry & The Public
-*   **Discussion Topics:** Are we satisfied with a future where users feel **"digitally dissociated"**? Should super-platforms provide identity sovereignty tools?
-*   **Action:** Share this draft. Participate in discussions. Express your need for **"context boundaries"** to the products you use. Civilizational progress starts with consensus, and consensus starts with conversation.
-
----
-
-## 【Chapter 7: Roadmap — Consensus as Fuel, Code as Bricks】
-
-We know real change never starts with ample budgets, but with clear consensus and concrete action. Therefore, for the next 12 months, we will proceed in the most essential open-source way: attracting contribution with ideas, validating concepts with code.
-
-### Month 0-1: Seeding
-*   **Core Action:** Publish this whitepaper (v1.0). Establish the GitHub organization & repository. Write clear `README` and `CONTRIBUTING` guides.
-*   **Key Output:** A thinking and collaboration hub anyone can immediately read, discuss, and fork.
-*   **Cost:** Time as the only currency.
-
-### Month 2-4: Sprouting
-*   **Core Action:** Launch the **"Minimum Viable Prototype (MVP) Call."** We won't fund projects, but will use community reputation and exposure as rewards to attract developers to submit creative prototypes based on this protocol (e.g., a "persona switcher" proof-of-concept).
-*   **Key Output:** 2-3 functional community MVPs to validate the technical feasibility and user value of the protocol's core concepts.
-*   **Cost:** Community organizing effort. No direct capital.
-
-### Month 5-8: Growing
-*   **Core Action:** Host an online **"Protocol Co-builder Summit"** (using free streaming tools). Facilitate deep discussion around the most notable MVPs, forming the first **《"Send in Peace" Protocol Technical Specification Draft (Community Edition)》**.
-*   **Key Output:** A community-consensus-driven, evolving technical specification draft; an active core contributor group.
-*   **Cost:** Coordination time.
-
-### Month 9-12: Emerging
-*   **Core Action:** Based on the community draft, facilitate 1-2 flagship integration experiments (e.g., collaborating with an open-source note-taking app or privacy tool to integrate "Identity Container" or "Conscious Ritual" modules).
-*   **Key Output:** Integration case reports in real product environments; initial breakout of protocol influence from theoretical to practical circles.
-*   **Cost:** Communication and coordination.
-
-### Our Core Principles
-1.  **Ideas First, Code Follows:** We don't buy development; we attract builders who believe in the vision.
-2.  **Reputation as Currency:** We will fully endorse outstanding contributors, leveraging our network to get them attention, opportunities, and potential resources.
-3.  **Open Evolution:** This roadmap itself will be open-source, co-revised by the community in a `ROADMAP.md` file on GitHub.
-
-We have no million-dollar budget. But we possess this era's two most valuable forms of capital: **a truth that strikes at the human heart, and a blueprint open to all.**
-
-**We are not recruiting employees. We are inviting co-founders.**
+### **L3 Consensus Detection: Glimmers of Gravity in a Sovereign Forest**
+*   **Goal:** To explore, under absolute privacy and sovereignty guarantees, whether technology can provide zero-risk discovery signals for precious **mutual intent.**
+*   **Mechanism:** Only when both parties voluntarily enable it and locally tag a highly similar relationship definition (e.g., "potential close friend," "industry mentor"), the system performs an anonymous, encrypted consensus match locally. If a match occurs, it provides only a **gentle, starlight-like nudge that can be safely and anonymously ignored.**
+*   **Why it's the vision:** It is the most beautiful flower that may grow upon the solid foundation of L1 and L2. It proves that sovereign isolation does not equal solitude, but may foster purer, more precious connections.
 
 ---
 
-## 【Epilogue: The Door Is Open】
+## **【Chapter 5: From Protocol to Action — Your First 15 Minutes】**
 
-Digital civilization stands at a crossroads. One path leads to more efficient surveillance, more sophisticated performance, and deeper loneliness. The other points toward technology serving humanity, rebuilding trust, dignity, and deep connection.
+The value of a protocol lies in its implementation. Please first engage with the idea of **"Identity Sovereignty" (L1)** — our common starting point.
 
-The **"Send in Peace" Protocol** is our first systematic sketch of the latter path. It's imperfect, but its direction is clear.
+*   **If you are a user seeking to solve your own plight:** Conduct a **"Personal Digital Context Audit."** List your primary identity roles across different platforms. Think: "How would my life be different if I could create a completely independent digital space for each role?"
+*   **If you are a developer seeking breakthrough ideas:** Visit our GitHub repository. The most urgent task: **try building a Minimum Viable Product (MVP) that implements "identity containers"** — perhaps a standalone note-taking or chat app prototype. Could you fork an existing open-source app and add this layer?
+*   **If you are a product designer:** Attempt to design an interactive prototype for an identity switcher. How can a user switch between **"Professional," "Family," "Self"** safely, elegantly, and within one second? Make "Identity Sovereignty" intuitive and captivating.
+*   **If you are a researcher:** The following questions demand exploration:
+    1.  The impact of multi-identity management on user cognitive load and psychological safety.
+    2.  The legal connotation of **"Identity Sovereignty"** and data ownership definition.
+    3.  How to design **"Consensus Detection"** between isolated identities ethically.
 
-We have pushed open the door and pointed to a visible road. Now, it needs footsteps.
+**The protocol is open; action is concrete. Choose your role and start building. Begin by understanding "Identity Sovereignty."**
 
-Welcome, in any way you choose, to join this protocol movement to rebuild our digital home.
+---
 
-History won't remember all who stayed silent, but it will remember those who first spoke up and pointed in a new direction.
+## **【Chapter 6: Roadmap — Fueled by Consensus, Built with Code】**
+
+For the next 12 months, we will advance in the open-source way:
+
+*   **Month 0-1 Seeding Period:** Publish this whitepaper (v2.1), establish the GitHub organization and repository with clear `README` and `CONTRIBUTING` guides.
+*   **Month 2-4 Germination Period:** Launch the **"Identity Container (L1) Concept Validation Call."** We don't fund projects, but reward contributors with community reputation and exposure. The core goal: produce 1-2 runnable, L1-focused community MVPs (e.g., a standalone app prototype with multi-identity switching) to validate the core experience of "Identity Sovereignty."
+*   **Month 5-8 Growth Period:** Host an online **"Protocol Co-builder Summit"** (using free streaming tools). Conduct in-depth discussions around the most compelling "identity container" prototypes and form the first **"Send in Peace Protocol Technical Specification Draft (Community Edition)."**
+*   **Month 9-12 Manifestation Period:** Promote 1-2 benchmark integration experiments based on the community draft (e.g., collaborating with an open-source note-taking app or privacy tool to integrate an "identity container" or "sober ritual" module).
+
+**Our Core Principles:**
+
+1.  **Foundation First:** We prioritize validating and building "Identity Sovereignty" (L1), because it is the protocol's raison d'être.
+2.  **Reputation as Currency:** We will fully endorse outstanding contributors, leveraging our network to gain them attention, opportunities, and potential resources.
+3.  **Open Evolution:** The roadmap itself is open-source and will be revised by the community in the `ROADMAP.md` file.
+
+We have no million-dollar budget, but we possess the two most valuable forms of capital in this era: **a question that strikes at the heart of the matter, and a blueprint open to all.**
+
+**We invite not employees, but fellow founders.**
+
+---
+
+## **【Epilogue: The Door is Open】**
+
+Digital civilization stands at a crossroads. One path leads to more efficient surveillance, more sophisticated performance, and deeper loneliness. The other path points toward technology serving humanity, rebuilding trust, dignity, and deep connection.
+
+The **"Send in Peace" Protocol** is our first systematic sketch of that latter path. It is imperfect, but its direction is clear.
+
+We have pushed open the door and pointed the way. Now, what's needed are footsteps.
+
+Welcome, in any capacity, to join this protocol movement to rebuild our digital home.
+
+History will not remember all who remained silent, but it will remember those who first raised their voices and pointed in a new direction.
 
 May this draft be the beginning of that voice.
 
 ---
 
-### License
-This framework uses a **Creative Commons Attribution-ShareAlike 4.0 International License**. Any individual or organization is welcome to experiment with, implement, commercialize, and iterate upon the ideas herein, provided attribution is given. Technical drafts and design resources for the "Send in Peace" protocol will be continuously updated on GitHub.
+### **License**
 
-### Contact & Project Progress
+This framework is licensed under a **Creative Commons Attribution-ShareAlike 4.0 International License**. Individuals and organizations are welcome to experiment with, implement, commercialize, and iterate upon the concepts herein, provided attribution is given. The "Send in Peace" protocol's technical drafts and design resources will be continuously updated on GitHub.
+
+### **Contact & Project Progress**
+
 *   **GitHub:** [github.com/Xiaocj1/send-in-peace-protocol](https://github.com/Xiaocj1/send-in-peace-protocol)
-*   **Discussions:** [Initiate topics on GitHub Discussions]
-*   **Author Email:** [To be disclosed upon first successful stewardship transition]
-```
+*   **Discussions:** Welcome to start topics in GitHub Discussions
+*   **Author Email:** [To be disclosed after the first successful handover]
