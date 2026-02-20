@@ -178,24 +178,40 @@ const进化机制 = {
 
 发起人会一直主持，直到共识真正达成。
 
-### 移交条件
+# ⚙️ 移交规则
+
+---
+
+## 一、移交条件
 
 **连续三轮（六周）的共识版PRD没有大改动。**
 
-### 谁来接管？
+这意味着：
+- 产品和RD吵够了
+- 身份层定义稳了
+- 社区知道自己要做什么了
+
+---
+
+## 二、谁来接管？
 
 **贡献只看一个指标：进前十的次数。**
 
-- PM：每进一次前十PRD，+1分
-- RD：每进一次前十砍刀，+1分
+| 角色 | 计分方式 |
+|------|----------|
+| **PM** | 每进一次前十PRD，+1分 |
+| **RD** | 每进一次前十砍刀，+1分 |
 
 当移交条件触发时：
 
-1. 取积分最高的10位PM + 10位RD → **20人常委会**
+1. 取积分最高的 **10位PM** + **10位RD** → **20人常委会**
 2. 发起人把仓库管理权移交给这20人
-3. 发起人只保留用PGP密钥仲裁核心原则的权利
+3. 发起人保留 **1个席位、1票**
+4. 发起人保留用 **PGP密钥仲裁核心原则** 的权利
 
-### 为什么这么简单？
+---
+
+## 三、为什么这么简单？
 
 复杂规则可以被钻空子，简单规则才公平。
 
@@ -425,24 +441,40 @@ const进化机制 = {
 
 The initiator will host until true consensus is reached.
 
-### Transition Condition
+# ⚙️ Transition Rules
 
-**A Consensus PRD has no major changes for three consecutive cycles (six weeks).**
+---
 
-### Who Takes Over?
+## I. Transition Condition
 
-**贡献 is measured by one metric: number of times in the top 10.**
+**Three consecutive cycles (six weeks) with no major changes to the Consensus PRD.**
 
-- PMs: +1 point for each top 10 PRD
-- Engineers: +1 point for each top 10 cut
+This means:
+- PMs and engineers have debated enough
+- The Identity Layer definition is stable
+- The community knows what to build
+
+---
+
+## II. Who Takes Over?
+
+**Contributions are measured by one metric only: number of times in the top 10.**
+
+| Role | Scoring |
+|------|---------|
+| **PM** | +1 point for each top 10 PRD |
+| **Engineer** | +1 point for each top 10 cut |
 
 When the transition condition is triggered:
 
-1. The 10 PMs and 10 Engineers with the highest points form a **20-Person Committee**.
-2. The initiator transfers repo admin rights to this committee.
-3. The initiator retains only the right to arbitrate core principles using a PGP key.
+1. The **10 PMs** + **10 Engineers** with the highest points form the **20-Person Committee**
+2. The initiator transfers repo admin rights to the committee
+3. The initiator retains **1 seat, 1 vote**
+4. The initiator retains the right to **arbitrate core principles using a PGP key**
 
-### Why So Simple?
+---
+
+## III. Why So Simple?
 
 Complex rules can be gamed. Simple rules are fair.
 
